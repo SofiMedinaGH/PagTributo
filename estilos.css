@@ -1,0 +1,93 @@
+#intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #title{
+      display: flex;
+      justify-content: center;
+      font-family: 'nunito', sans-serif;
+      font-size: 400%; 
+      grid-area: title;
+      margin: 8% 8% -2% 8%;
+    }
+  
+  #sub-title{
+    text-align: center;
+    justify-content: flex-start;
+    font-family: 'roboto flex', arial;
+    font-size: 120%;
+  }
+  
+  #main{
+    display: grid;
+    align-items: center;
+    background-color: #FFFFFF;
+    grid-template-areas:
+      "intro"
+      "cont-portada"
+      "tribute-info";
+    }
+  
+  #portada {
+    display: flex;
+    justify-content: center;
+    grid-area: portada;
+    }
+  
+  #cont-portada {
+    display: grid;
+    justify-content: center;
+    background-color: #D3E5EA;
+    border-radius: 4%;
+     
+  }
+  
+  #img-div{
+    margin: 5% 15% 5% 15%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  } 
+  
+  #image {
+      justify-content: center;
+      max-width: 100%;
+      flex-basis: auto;
+      height: auto;
+        
+  }
+  
+  #img-caption {
+      justify-content: center;
+      margin:2%;
+      font-family: 'roboto flex', arial;
+  }
+  
+  #tribute-info{
+    grid-area: tribute-info;
+    font-family: 'roboto', arial;
+    text-align: justify;
+    margin:5% 25% 5% 25%;
+  }
+  
+  #link-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+  }
+  
+  #tribute-link {
+    text-align: center;
+  }
+  
+  p{
+    font-family: 'roboto flex', arial;
+    text-align: center;
+  }
